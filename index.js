@@ -1,3 +1,3 @@
-import _ from 'lodash';
+import { getLastItem } from './src';
 
-console.log(_.last(['one', 'two']));
+console.log(getLastItem([1, 2]));
