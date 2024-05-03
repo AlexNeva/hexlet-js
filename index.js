@@ -1,3 +1,3 @@
-import { getLastItem } from './src';
+import getLastItem from './src/index';
 
-console.log(getLastItem([1, 2]));
+getLastItem([1, 2]);

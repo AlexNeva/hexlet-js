@@ -1,5 +1,5 @@
 import _ from 'lodash';
 
-export const getLastItem = (arr) => {
-	return _.last(arr);
-};
+const getLastItem = (arr) => _.last(arr);
+
+export default getLastItem;
